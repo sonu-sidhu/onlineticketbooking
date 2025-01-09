@@ -1,0 +1,66 @@
+.booking-page {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    .page-title {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #2094D1;
+    }
+    .flight-details {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      p {
+        margin: 5px 0;
+        font-size: 1.1rem;
+      }
+      h3 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+    }
+    .booking-form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      h2 {
+        margin-bottom: 20px;
+        color: #2094D1;
+      }
+      .form-group {
+        margin-bottom: 15px;
+        label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+        input {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+        }
+      }
+      .btn-primary {
+        background-color: #2094D1;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        &:hover {
+          background-color: #176FA0;
+        }
+      }
+    }
+    .error-message {
+      text-align: center;
+      color: red;
+      font-size: 1.5rem;
+    }
+  }
+  

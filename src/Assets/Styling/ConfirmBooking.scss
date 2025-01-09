@@ -1,0 +1,147 @@
+.confirm-booking {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    font-family: "Arial", sans-serif;
+    position: relative;
+  
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+  
+      .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        color: #2094d1;
+        text-transform: uppercase;
+      }
+  
+      .booking-details {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+  
+        h2 {
+          font-size: 1.8rem;
+          margin-bottom: 10px;
+          color: #333;
+          font-weight: bold;
+        }
+  
+        ul {
+          list-style: none;
+          padding: 0;
+  
+          li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #555;
+  
+            strong {
+              color: #000;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+  
+      .payment-section {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+        h2 {
+          font-size: 1.8rem;
+          margin-bottom: 20px;
+          color: #333;
+          font-weight: bold;
+        }
+  
+        .payment-methods {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 20px;
+  
+          .payment-option {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  
+            h3 {
+              font-size: 1.5rem;
+              color: #2094d1;
+              margin-bottom: 10px;
+              font-weight: bold;
+            }
+  
+            img {
+              width: 150px;
+              height: 150px;
+              margin: 10px 0;
+              border-radius: 10px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+  
+            .copy-btn {
+              background-color: #2094d1;
+              color: #fff;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              font-size: 1rem;
+              transition: background-color 0.3s ease;
+  
+              &.copied {
+                background-color: #28a745;
+              }
+  
+              &:hover {
+                background-color: #0e6da8;
+              }
+            }
+  
+            form {
+              input {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                font-size: 1rem;
+  
+                &.small {
+                  width: 48%;
+                  display: inline-block;
+                }
+              }
+  
+              .btn-pay {
+                width: 100%;
+                background-color: #2094d1;
+                color: #fff;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                font-size: 1.2rem;
+                margin-top: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+  
+                &:hover {
+                  background-color: #0e6da8;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

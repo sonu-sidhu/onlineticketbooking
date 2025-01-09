@@ -1,0 +1,94 @@
+.flights-section {
+    position: relative;
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('../Images/istockphoto-184347141-612x612.jpg') no-repeat center center / cover;
+      opacity: 0.3;
+      z-index: 0; 
+      pointer-events: none; 
+    }
+  
+    .container {
+      position: relative; 
+      z-index: 1; 
+  
+      .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: #2094d1;
+      }
+  
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+  
+        .flight-card {
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 10px;
+          padding: 20px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          margin-bottom: 20px;
+          text-align: center;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+          &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+          }
+  
+          .flight-number {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #2094d1;
+            margin-bottom: 1rem;
+          }
+  
+          .flight-details {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+            color: #555;
+          }
+  
+          .flight-time {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+            color: #333;
+          }
+  
+          .flight-price {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #2094d1;
+            margin: 1rem 0;
+          }
+  
+          .btn {
+            background-color: #2094d1;
+            color: #fff;
+            padding: 0.5rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+  
+            &:hover {
+              background-color: #0e6da8;
+            }
+          }
+        }
+      }
+    }
+  }
+  
