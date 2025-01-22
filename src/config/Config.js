@@ -8,5 +8,5 @@ export const titleDescription = 'Ticket Booking';
 export const coinSymbol = 'Vista';
 
 export const image_url = 'https://vistaforce.io/kyc/';
-export const api_url = 'http://192.168.18.39:8000/api/v1/';
+export const api_url = 'http://192.168.31.144:8000/api/v1/';
 
